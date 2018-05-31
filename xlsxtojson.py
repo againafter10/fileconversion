@@ -8,7 +8,6 @@ wb = xlrd.open_workbook('somesamplefile.xlsx')
 sheet = wb.sheet_by_index(0)
 
 out_json = "meta_somesamplefile.json"
-"""
 
 cols = [] # attaributes from the header row - has to ordered so cannot keep it as a dictionary
 for i in sheet.row_values(0):
