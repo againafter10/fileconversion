@@ -13,8 +13,7 @@ cols = [] # attaributes from the header row - has to ordered so cannot keep it a
 for i in sheet.row_values(0):
     cols.append(i)
 print()
-print()
-print("print the schema\n")
+print("print the schema***\n")
 for i in cols:
     print(i)
 
